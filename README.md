@@ -1,6 +1,9 @@
 # Kinemic Toolbox
 A Collection of classes, templates and utilities for Android, that help you interact with the [Kinemic Publisher](https://kinemic.de/evalpackage.html).
 
+The easiest way to get started is to use our [Android Example](https://github.com/kinemic/kinemic-example-android) as a template for a new application.
+If you want to integrate gesture interaction into your existing application, just follow the instructions below.
+
 # Getting Started
 To use the toolbox, you need to add our maven repository in your root projects build.gradle
 and add this module as a dependency to your modules build.gradle.
