@@ -22,8 +22,11 @@ plugins {
 apply plugin: 'com.android.library'
 
 ext {
+    bintrayOrg = 'kinemic'
     bintrayRepo = 'maven'
     bintrayName = 'toolbox'
+
+    bintrayLicense = 'Apache-2.0'
 
     publishedGroupId = 'de.kinemic'
     libraryName = 'KinemicToolbox'
@@ -33,6 +36,7 @@ ext {
 
     siteUrl = 'https://github.com/kinemic/kinemic-toolbox-android'
     gitUrl = 'https://github.com/kinemic/kinemic-toolbox-android.git'
+    issueUrl = 'https://github.com/kinemic/kinemic-toolbox-android/issues'
 
     libraryVersion = '0.9.5'
 
@@ -76,4 +80,14 @@ dependencies {
 
 // install and upload to bintray
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+apply from: 'bintray.gradle' // was based on: apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+
+// some optional infos
+bintray {
+    override = true
+    pkg {
+        labels = ['Kinemic', 'hands-free-interaction', "gesture-control", 'gestures']
+        githubRepo = 'kinemic/kinemic-toolbox-android'
+        githubReleaseNotesFile = 'README.md'
+    }
+}
