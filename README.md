@@ -1,4 +1,6 @@
 # Kinemic Toolbox
+[ ![Download](https://api.bintray.com/packages/kinemic/maven/toolbox/images/download.svg?version=0.9.5) ](https://bintray.com/kinemic/maven/toolbox/0.9.5/link)
+
 A Collection of classes, templates and utilities for Android, that help you interact with the [Kinemic Publisher](https://kinemic.de/evalpackage.html).
 
 The easiest way to get started is to use our [Android Example](https://github.com/kinemic/kinemic-example-android) as a template for a new application.
