@@ -38,7 +38,7 @@ ext {
     gitUrl = 'https://github.com/kinemic/kinemic-toolbox-android.git'
     issueUrl = 'https://github.com/kinemic/kinemic-toolbox-android/issues'
 
-    libraryVersion = '0.9.5'
+    libraryVersion = '0.9.6'
 
     developerId = 'fwinnen'
     developerName = 'Fabian Winnen'

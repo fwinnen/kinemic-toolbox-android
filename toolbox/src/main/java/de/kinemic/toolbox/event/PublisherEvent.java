@@ -40,6 +40,26 @@ public class PublisherEvent {
     /** Extra key for the json representing the event in a event broadcast. */
     public static final String BROADCAST_JSON = "json";
 
+    public static final String GESTURE_ROTATE_RL = "Rotate RL";
+    public static final String GESTURE_ROTATE_LR = "Rotate LR";
+    public static final String GESTURE_ROTATE_R = "Rotate R";
+    public static final String GESTURE_ROTATE_L = "Rotate L";
+    public static final String GESTURE_CIRCLE_R = "Circle R";
+    public static final String GESTURE_CIRCLE_L = "Circle L";
+    public static final String GESTURE_SWIPE_R = "Swipe R";
+    public static final String GESTURE_SWIPE_L = "Swipe L";
+    public static final String GESTURE_SWIPE_UP = "Swipe Up";
+    public static final String GESTURE_SWIPE_DOWN = "Swipe Down";
+    public static final String GESTURE_WIRL_R = "Wirl R";
+    public static final String GESTURE_WIRL_L = "Wirl L";
+    public static final String GESTURE_EARTOUCHL_R = "Eartouch R";
+    public static final String GESTURE_EARTOUCH_L = "Eartouch L";
+    public static final String GESTURE_CHESTTOUCH = "Chesttouch";
+    public static final String GESTURE_CHECK_MARK = "Check Mark";
+    public static final String GESTURE_X_MARK = "X Mark";
+    public static final String GESTURE_TAP = "Tap";
+    public static final String GESTURE_DOUBLE_TAP = "DoubleTap";
+
     /**
      * Different Types of publisher events.
      */
